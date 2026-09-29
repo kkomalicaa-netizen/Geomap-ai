@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "name": "GeoMap AI - Demo Study Boundary",
+  "properties": {
+    "dataset_type": "synthetic_demo"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "AREA-001",
+      "properties": {
+        "area_id": "AREA-001",
+        "name": "GeoMap AI Demo Zone",
+        "note": "Synthetic study boundary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.4445,
+              17.4046
+            ],
+            [
+              78.4495,
+              17.4046
+            ],
+            [
+              78.4495,
+              17.4078
+            ],
+            [
+              78.4445,
+              17.4078
+            ],
+            [
+              78.4445,
+              17.4046
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

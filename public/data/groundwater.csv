@@ -1,0 +1,16 @@
+Well ID,District Name,Block Name,Site Name,Latitude,Longitude,Well Type,Well Depth (m),Water Level (mbgl),pH Level,TDS (ppm),Contamination Risk,Status
+TS-GW-101,HYDERABAD,Shaikpet,Gachibowli Tech Park Well 1,17.4415,78.3755,Piezometer,45.5,14.2,7.2,420,Low,Active
+TS-GW-102,HYDERABAD,Shaikpet,Cyber Towers Core Well,17.4398,78.3812,Piezometer,52.0,16.8,7.4,510,Low,Active
+TS-GW-103,HYDERABAD,Serilingampally,Madhapur Urban Station 4,17.4430,78.3845,Borewell,65.0,19.4,7.8,680,Moderate,Warning
+TS-GW-104,HYDERABAD,Serilingampally,Kondapur Deep Aquifer A,17.4410,78.3892,Piezometer,70.0,22.1,8.3,890,High,Critical
+TS-GW-105,HYDERABAD,Serilingampally,Hitec Metro Depot Well,17.4375,78.3930,Borewell,38.0,11.5,7.1,380,Low,Active
+TS-GW-106,HYDERABAD,Shaikpet,Raidurg Junction Observation Well,17.4360,78.3768,Piezometer,60.0,18.2,7.3,460,Low,Active
+TS-GW-107,HYDERABAD,Shaikpet,Durgam Cheruvu Catchment Well,17.4335,78.3820,Observation,25.0,7.8,6.9,310,Low,Active
+TS-GW-108,HYDERABAD,Serilingampally,Knowledge City Aquifer Station,17.4355,78.3880,Piezometer,58.0,17.5,7.5,530,Moderate,Active
+TS-GW-109,HYDERABAD,Serilingampally,Biodiversity Park Deep Bore,17.4320,78.3910,Observation,42.0,12.8,7.0,340,Low,Active
+TS-GW-110,HYDERABAD,Serilingampally,Financial District Buffer Well,17.4365,78.3965,Piezometer,62.0,20.5,8.1,790,High,Warning
+TS-GW-111,HYDERABAD,Shaikpet,Gachibowli Stadium Perimeter Well,17.4445,78.3735,Borewell,48.0,15.1,7.2,410,Low,Active
+TS-GW-112,HYDERABAD,Shaikpet,Telecom Nagar Monitoring Well,17.4310,78.3750,Piezometer,55.0,16.4,7.4,490,Low,Active
+TS-GW-113,HYDERABAD,Shaikpet,Inorbit Mall Drainage Monitor,17.4325,78.3860,Observation,32.0,9.6,7.3,470,Low,Active
+TS-GW-114,HYDERABAD,Serilingampally,Silpa Gram Craft Village Aquifer,17.4450,78.3880,Piezometer,44.0,13.9,7.1,390,Low,Active
+TS-GW-115,HYDERABAD,Serilingampally,Kothaguda Reserve Well,17.4465,78.3940,Borewell,68.0,23.4,8.4,920,High,Critical

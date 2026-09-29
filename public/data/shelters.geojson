@@ -1,0 +1,139 @@
+{
+  "type": "FeatureCollection",
+  "name": "Hyderabad_Disaster_Emergency_Relief_Shelters",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "SHELTER-01",
+      "properties": {
+        "shelter_id": "TS-NDRF-SH01",
+        "name": "Gachibowli Indoor Stadium Mega Relief Hub",
+        "facility_type": "Regional Disaster Response Facility",
+        "capacity": 4500,
+        "current_occupancy": 820,
+        "medical_team": true,
+        "generator_backup": true,
+        "water_purification": true,
+        "supplies_days": 18,
+        "contact_officer": "Dr. K. Ramanathan (SDMA)",
+        "phone": "+91-40-2345-0911",
+        "status": "Operational / Available"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.3735, 17.4435]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SHELTER-02",
+      "properties": {
+        "shelter_id": "TS-NDRF-SH02",
+        "name": "HITEC City Convention Center Evacuation Zone",
+        "facility_type": "Primary Civic Shelter",
+        "capacity": 3000,
+        "current_occupancy": 640,
+        "medical_team": true,
+        "generator_backup": true,
+        "water_purification": true,
+        "supplies_days": 14,
+        "contact_officer": "Capt. V. Sharma (Retd NDRF)",
+        "phone": "+91-40-2345-0912",
+        "status": "Operational / Available"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.3840, 17.4445]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SHELTER-03",
+      "properties": {
+        "shelter_id": "TS-NDRF-SH03",
+        "name": "Madhapur Municipal Community Triage Hall",
+        "facility_type": "Community Rapid Shelter",
+        "capacity": 1200,
+        "current_occupancy": 310,
+        "medical_team": true,
+        "generator_backup": true,
+        "water_purification": false,
+        "supplies_days": 8,
+        "contact_officer": "M. Sunitha (GHMC Ward)",
+        "phone": "+91-40-2345-0913",
+        "status": "Operational / Available"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.3895, 17.4385]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SHELTER-04",
+      "properties": {
+        "shelter_id": "TS-NDRF-SH04",
+        "name": "Kondapur Multi-Specialty Health & Shelter Center",
+        "facility_type": "Medical Triage & Isolation Shelter",
+        "capacity": 1800,
+        "current_occupancy": 950,
+        "medical_team": true,
+        "generator_backup": true,
+        "water_purification": true,
+        "supplies_days": 21,
+        "contact_officer": "Dr. Anita Rao (Govt Hospital)",
+        "phone": "+91-40-2345-0914",
+        "status": "High Occupancy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.3960, 17.4410]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SHELTER-05",
+      "properties": {
+        "shelter_id": "TS-NDRF-SH05",
+        "name": "Raidurg Rapid Transit Emergency Base",
+        "facility_type": "Logistics & Transport Camp",
+        "capacity": 2200,
+        "current_occupancy": 400,
+        "medical_team": false,
+        "generator_backup": true,
+        "water_purification": true,
+        "supplies_days": 12,
+        "contact_officer": "Inspector S. Reddy (TSRTC)",
+        "phone": "+91-40-2345-0915",
+        "status": "Operational / Available"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.3765, 17.4330]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SHELTER-06",
+      "properties": {
+        "shelter_id": "TS-NDRF-SH06",
+        "name": "Biodiversity Knowledge Park High Ground Camp",
+        "facility_type": "Elevated Safe Zone",
+        "capacity": 1500,
+        "current_occupancy": 150,
+        "medical_team": true,
+        "generator_backup": true,
+        "water_purification": true,
+        "supplies_days": 10,
+        "contact_officer": "N. Prasad (Forest Dept)",
+        "phone": "+91-40-2345-0916",
+        "status": "Operational / Available"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.3920, 17.4335]
+      }
+    }
+  ]
+}

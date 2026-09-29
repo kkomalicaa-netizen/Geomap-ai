@@ -1,0 +1,454 @@
+{
+  "type": "FeatureCollection",
+  "name": "GeoMap AI - Misaligned Source B",
+  "properties": {
+    "dataset_type": "synthetic_demo",
+    "warning": "Contains intentional misalignment, overlap, gap and RoW encroachment"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "P-001",
+      "properties": {
+        "parcel_id": "P-001",
+        "source": "Legacy Digitized Map",
+        "expected_issue": "global_misalignment",
+        "demo_note": "Synthetic geometry intentionally modified for SIH demonstration"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.44518,
+              17.4051
+            ],
+            [
+              78.44618,
+              17.4051
+            ],
+            [
+              78.44618,
+              17.405900000000003
+            ],
+            [
+              78.44518,
+              17.405900000000003
+            ],
+            [
+              78.44518,
+              17.4051
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-002",
+      "properties": {
+        "parcel_id": "P-002",
+        "source": "Legacy Digitized Map",
+        "expected_issue": "global_misalignment",
+        "demo_note": "Synthetic geometry intentionally modified for SIH demonstration"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.44618,
+              17.4051
+            ],
+            [
+              78.44718,
+              17.4051
+            ],
+            [
+              78.44718,
+              17.405900000000003
+            ],
+            [
+              78.44618,
+              17.405900000000003
+            ],
+            [
+              78.44618,
+              17.4051
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-003",
+      "properties": {
+        "parcel_id": "P-003",
+        "source": "Legacy Digitized Map",
+        "expected_issue": "global_misalignment",
+        "demo_note": "Synthetic geometry intentionally modified for SIH demonstration"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.44717999999999,
+              17.4051
+            ],
+            [
+              78.44818,
+              17.4051
+            ],
+            [
+              78.44818,
+              17.405900000000003
+            ],
+            [
+              78.44717999999999,
+              17.405900000000003
+            ],
+            [
+              78.44717999999999,
+              17.4051
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-004",
+      "properties": {
+        "parcel_id": "P-004",
+        "source": "Legacy Digitized Map",
+        "expected_issue": "global_misalignment",
+        "demo_note": "Synthetic geometry intentionally modified for SIH demonstration"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.44818,
+              17.4051
+            ],
+            [
+              78.44918,
+              17.4051
+            ],
+            [
+              78.44918,
+              17.405900000000003
+            ],
+            [
+              78.44818,
+              17.405900000000003
+            ],
+            [
+              78.44818,
+              17.4051
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-005",
+      "properties": {
+        "parcel_id": "P-005",
+        "source": "Legacy Digitized Map",
+        "expected_issue": "global_misalignment",
+        "demo_note": "Synthetic geometry intentionally modified for SIH demonstration"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.44518,
+              17.405900000000003
+            ],
+            [
+              78.44618,
+              17.405900000000003
+            ],
+            [
+              78.44618,
+              17.406700000000004
+            ],
+            [
+              78.44518,
+              17.406700000000004
+            ],
+            [
+              78.44518,
+              17.405900000000003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-006",
+      "properties": {
+        "parcel_id": "P-006",
+        "source": "Legacy Digitized Map",
+        "expected_issue": "overlap",
+        "demo_note": "Synthetic geometry intentionally modified for SIH demonstration"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.44583,
+              17.405900000000003
+            ],
+            [
+              78.44718,
+              17.405900000000003
+            ],
+            [
+              78.44718,
+              17.406700000000004
+            ],
+            [
+              78.44583,
+              17.406700000000004
+            ],
+            [
+              78.44583,
+              17.405900000000003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-007",
+      "properties": {
+        "parcel_id": "P-007",
+        "source": "Legacy Digitized Map",
+        "expected_issue": "gap",
+        "demo_note": "Synthetic geometry intentionally modified for SIH demonstration"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.44745999999999,
+              17.405900000000003
+            ],
+            [
+              78.44818,
+              17.405900000000003
+            ],
+            [
+              78.44818,
+              17.406700000000004
+            ],
+            [
+              78.44745999999999,
+              17.406700000000004
+            ],
+            [
+              78.44745999999999,
+              17.405900000000003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-008",
+      "properties": {
+        "parcel_id": "P-008",
+        "source": "Legacy Digitized Map",
+        "expected_issue": "global_misalignment",
+        "demo_note": "Synthetic geometry intentionally modified for SIH demonstration"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.44818,
+              17.405900000000003
+            ],
+            [
+              78.44918,
+              17.405900000000003
+            ],
+            [
+              78.44918,
+              17.406700000000004
+            ],
+            [
+              78.44818,
+              17.406700000000004
+            ],
+            [
+              78.44818,
+              17.405900000000003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-009",
+      "properties": {
+        "parcel_id": "P-009",
+        "source": "Legacy Digitized Map",
+        "expected_issue": "global_misalignment",
+        "demo_note": "Synthetic geometry intentionally modified for SIH demonstration"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.44518,
+              17.4067
+            ],
+            [
+              78.44618,
+              17.4067
+            ],
+            [
+              78.44618,
+              17.407500000000002
+            ],
+            [
+              78.44518,
+              17.407500000000002
+            ],
+            [
+              78.44518,
+              17.4067
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-010",
+      "properties": {
+        "parcel_id": "P-010",
+        "source": "Legacy Digitized Map",
+        "expected_issue": "row_encroachment",
+        "demo_note": "Synthetic geometry intentionally modified for SIH demonstration"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.44618,
+              17.40632
+            ],
+            [
+              78.44718,
+              17.40632
+            ],
+            [
+              78.44718,
+              17.407500000000002
+            ],
+            [
+              78.44618,
+              17.407500000000002
+            ],
+            [
+              78.44618,
+              17.40632
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-011",
+      "properties": {
+        "parcel_id": "P-011",
+        "source": "Legacy Digitized Map",
+        "expected_issue": "global_misalignment",
+        "demo_note": "Synthetic geometry intentionally modified for SIH demonstration"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.44717999999999,
+              17.4067
+            ],
+            [
+              78.44818,
+              17.4067
+            ],
+            [
+              78.44818,
+              17.407500000000002
+            ],
+            [
+              78.44717999999999,
+              17.407500000000002
+            ],
+            [
+              78.44717999999999,
+              17.4067
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-012",
+      "properties": {
+        "parcel_id": "P-012",
+        "source": "Legacy Digitized Map",
+        "expected_issue": "global_misalignment",
+        "demo_note": "Synthetic geometry intentionally modified for SIH demonstration"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.44818,
+              17.4067
+            ],
+            [
+              78.44918,
+              17.4067
+            ],
+            [
+              78.44918,
+              17.407500000000002
+            ],
+            [
+              78.44818,
+              17.407500000000002
+            ],
+            [
+              78.44818,
+              17.4067
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

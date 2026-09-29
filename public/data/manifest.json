@@ -1,0 +1,137 @@
+{
+  "project": "GeoMap AI",
+  "problem_statement_id": "SIH 26013",
+  "title": "Automated Integration and Intelligent Harmonization of Multi-source Geospatial Data for Urban Land Record Management",
+  "version": "2.0.0",
+  "crs": "EPSG:4326 (WGS 84) & LCC_WGS84",
+  "region": "Telangana State & Hyderabad Urban Agglomeration, India",
+  "datasets": [
+    {
+      "id": "telangana-groundwater",
+      "name": "Telangana State Groundwater Monitoring Well Network (2007-2026)",
+      "description": "Comprehensive statewide piezometer and borewell dataset comprising 188,877 monthly observations across 1,769 active monitoring stations. Includes water level (mbgl), aquifer classification, seasonal fluctuation, and over-exploitation stress analysis.",
+      "format": "CSV & GeoJSON",
+      "file": "data/telangana_groundwater_wells.geojson",
+      "csv_file": "data/telangana_groundwater_master.csv",
+      "raw_file": "ground_water_level_manual_monthly_telangna_2007_2026.csv",
+      "feature_count": 1769,
+      "total_observations": 188877,
+      "geometry_type": "Point (Lat/Lon)",
+      "department": "State Ground Water Department (SGWD), Government of Telangana",
+      "update_frequency": "Monthly Continuous Monitoring (2007 - 2026)",
+      "badge": "Authentic SGWD Dataset",
+      "color": "#10b981",
+      "attributes": [
+        "Well ID", "District Name", "Block / Mandal", "Village / Site Name",
+        "Latitude", "Longitude", "Well Type", "Depth (m)", "Aquifer Tapped",
+        "Latest Water Level mbgl", "Historical Avg mbgl", "Stress Classification"
+      ]
+    },
+    {
+      "id": "telangana-cadastre",
+      "name": "Telangana Cadastral Revenue Boundaries & Urban Parcels",
+      "description": "State-wide administrative boundaries and revenue village cadastre parsed and reprojected from Survey of India LCC shapefiles (10,455 revenue villages across 33 districts). Features LGD codes, perimeter, parcel area, and urban land record layers for Hyderabad, Medchal-Malkajgiri, Ranga Reddy, Sangareddy and Adilabad.",
+      "format": "Shapefile / GeoJSON",
+      "file": "data/telangana_cadastral_villages.geojson",
+      "raw_file": "TELANGANA.zip",
+      "summary_file": "data/telangana_districts_summary.json",
+      "feature_count": 10455,
+      "districts_count": 33,
+      "geometry_type": "Polygon / MultiPolygon",
+      "department": "Department of Land Records & Survey / Survey of India (SOI)",
+      "update_frequency": "Statutory Revenue Record",
+      "badge": "Statewide Shapefile",
+      "color": "#3b82f6",
+      "attributes": [
+        "OBJECTID", "District Name", "Sub-District (Mandal)", "Village Name",
+        "Category (Urban/Rural)", "Village LGD Code", "District LGD Code",
+        "Area (sq.km)", "Perimeter (km)", "Survey Authority"
+      ]
+    },
+    {
+      "id": "osm-infrastructure",
+      "name": "OpenStreetMap Real Road Corridors & Building Footprints",
+      "description": "High-fidelity vector corridors, transit ways, arterial links, and structural polygons extracted directly from local OSM spatial XML data (map.osm). Utilized for statutory Right-of-Way (RoW) buffer conflict detection and infrastructure alignment.",
+      "format": "OSM XML / GeoJSON",
+      "file": "data/telangana_osm_roads.geojson",
+      "raw_file": "map.osm",
+      "feature_count": 75,
+      "structures_count": 618,
+      "geometry_type": "LineString & Polygon",
+      "department": "OpenStreetMap / Municipal Spatial Geodatabase",
+      "update_frequency": "Community Verified",
+      "badge": "Vector OSM Network",
+      "color": "#f97316",
+      "attributes": [
+        "OSM Way ID", "Road Name", "Highway Type", "Lanes", "Surface", "Max Speed", "Geometry"
+      ]
+    },
+    {
+      "id": "srtm-dem-elevation",
+      "name": "NASA SRTM 30m Digital Elevation Model (DEM)",
+      "description": "1-ArcSecond (30-meter) terrain elevation raster covering the Hyderabad metropolitan watershed and Telangana plateau (17°N, 78°E). Used for drainage slope calculations, flood vulnerability zoning, and 3D terrain profile modeling.",
+      "format": "GeoTIFF (Raster)",
+      "file": "data/raster_metadata.json",
+      "raw_file": "n17_e078_1arc_v3.tif",
+      "feature_count": "3600 x 3600 Gridded Pixels",
+      "elevation_range": "412m - 684m (Mean: 542m)",
+      "geometry_type": "Raster Grid (30m)",
+      "department": "NASA / USGS Shuttle Radar Topography Mission (SRTM)",
+      "update_frequency": "Global Elevation Baseline",
+      "badge": "30m Elevation Grid",
+      "color": "#8b5cf6",
+      "attributes": [
+        "Elevation (m MSL)", "Slope Gradient (%)", "Hydrological Flow Direction", "Watershed Catchment"
+      ]
+    },
+    {
+      "id": "landsat8-satellite",
+      "name": "USGS / NASA Landsat-8 Multi-Spectral Satellite Raster",
+      "description": "Level-1 Terrain Corrected (L1TP) 30-meter resolution satellite imagery (Path 144, Row 048) covering Telangana. Optical Blue Band (0.452 - 0.512 µm) with 16-bit radiometric fidelity used for spectral water body indexing, turbidity detection, and land use classification.",
+      "format": "GeoTIFF (Raster)",
+      "file": "data/raster_metadata.json",
+      "raw_file": "LC08_L1TP_144048_20260604_20260612_02_T1_B2.TIF",
+      "feature_count": "16-Bit Multispectral Raster",
+      "geometry_type": "Satellite Imagery",
+      "department": "USGS Earth Resources Observation & Science (EROS) / NASA",
+      "update_frequency": "16-Day Revisit Cycle",
+      "badge": "Landsat 8 Band 2",
+      "color": "#06b6d4",
+      "attributes": [
+        "Band 2 Blue Radiance", "Solar Azimuth", "Cloud Cover (0.84%)", "Pixel Grid (30m)"
+      ]
+    },
+    {
+      "id": "cadastral-demo",
+      "name": "Urban Parcel Cadastre (Conflict Benchmark)",
+      "description": "High-density cadastral parcels configured with deliberate micro-scale sliver gaps, multi-owner boundary overlaps, and arterial road buffer intersections for automated AI harmonization demonstration.",
+      "format": "GeoJSON",
+      "file": "data/cadastral.geojson",
+      "feature_count": 12,
+      "geometry_type": "Polygon",
+      "department": "Department of Land Records & Surveys, Telangana",
+      "update_frequency": "Real-time AI Sync",
+      "badge": "Cadastre Benchmark",
+      "color": "#6366f1",
+      "attributes": [
+        "Parcel ID", "Survey No", "Owner", "Zoning", "Deed Area", "Calculated Area", "Valuation"
+      ]
+    },
+    {
+      "id": "shelters",
+      "name": "Emergency Relief Shelters & Triage Centers",
+      "description": "Designated municipal disaster relief facilities with capacity, current occupancy, medical teams, and emergency supply routing.",
+      "format": "GeoJSON",
+      "file": "data/shelters.geojson",
+      "feature_count": 6,
+      "geometry_type": "Point",
+      "department": "Telangana State Disaster Management Authority (SDMA)",
+      "update_frequency": "Active Protocol",
+      "badge": "Disaster Response",
+      "color": "#ec4899",
+      "attributes": [
+        "Shelter Name", "Capacity", "Current Occupancy", "Medical Staff", "Generator Backup", "Contact"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "elevation_dem": {
+    "filename": "n17_e078_1arc_v3.tif",
+    "product": "NASA SRTM 1-ArcSecond (30m) Global Digital Elevation Model",
+    "bbox": [
+      78.0,
+      17.0,
+      79.0,
+      18.0
+    ],
+    "coverage": "Hyderabad Metropolitan Region & Surrounding Watershed, Telangana",
+    "resolution": "30.87 meters (1 arc-second)",
+    "elevation_min_m": 412,
+    "elevation_max_m": 684,
+    "mean_elevation_m": 542,
+    "terrain_type": "Deccan Plateau Granitic Peneplain with Inselbergs",
+    "applications": [
+      "Drainage flood routing",
+      "Slope stability",
+      "Topographic contour generation",
+      "Urban runoff modeling"
+    ]
+  },
+  "landsat_satellite": {
+    "filename": "LC08_L1TP_144048_20260604_20260612_02_T1_B2.TIF",
+    "product": "USGS / NASA Landsat 8 OLI/TIRS Level-1 Precision Terrain Corrected",
+    "band": "Band 2 - Blue (0.452 - 0.512 \u00b5m)",
+    "path_row": "Path 144, Row 048 (Telangana Central Orbit Track)",
+    "resolution": "30 meters",
+    "radiometric_resolution": "16-bit (0 - 65535 DN)",
+    "acquisition_date": "2026-06-04",
+    "cloud_cover": "0.84%",
+    "applications": [
+      "Water body delineation",
+      "Bathymetry & turbidity analysis",
+      "Atmospheric correction",
+      "Urban land cover classification"
+    ]
+  }
+}
