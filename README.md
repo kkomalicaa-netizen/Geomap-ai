@@ -57,15 +57,6 @@ The demo includes curated real-world sample datasets centered around the **Hyder
 - `manifest.json`: Complete OGC dataset catalog metadata.
 
 ---
-
-## 🧑‍⚖️ 3-Minute Judge Evaluation Guide
-
-1. **Launch GIS Demo**: Click **Live GIS Demo** in the top navigation bar.
-2. **AI Smart Alignment**: Open the **Align** tab on the right sidebar, click **Run AI Alignment**, and watch the animated progress bar reduce residual RMSE from 14.2m to 0.28m.
-3. **Topology Fix (Sliver Overlap)**: Open the **Topology** tab. Click **Review & Fix** on the flagged anomaly between `TS-HYD-P102` and `TS-HYD-P103`. Review the proposed geometric snap in the modal, click **Approve & Commit Fix**, and celebrate with confetti!
-4. **RoW Conflict Detection**: Open the **Conflicts** tab. Inspect the pulsating red encroachment highlights on `P-104` and `P-105`. Click **Inspect on Map** to zoom directly into the intersection.
-5. **Disaster Evacuation**: Open the **Disaster** tab. Select **Urban Flash Flood Zone**. Inspect the dynamic evacuation route to the Gachibowli Stadium shelter and examine the triage card.
-
 ---
 
 ## 🛠️ Quickstart & Local Installation
@@ -90,23 +81,6 @@ npm run build
 npm run preview
 ```
 
----
-
-## 🚀 Instant Deployment
-
-### GitHub Pages
-Set `base: './'` in `vite.config.js` (pre-configured). Push the `dist/` folder to your `gh-pages` branch.
-
-### Netlify
-Pre-configured with `netlify.toml`:
-```toml
-[build]
-  publish = "dist"
-  command = "npm run build"
-```
-
-### Vercel
-Pre-configured with `vercel.json` SPA rewrite rules. Simply import the repository on Vercel.
 
 ---
 
